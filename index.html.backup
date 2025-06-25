@@ -66,9 +66,7 @@
     <body onload="initialize();" style="margin:0px; background-color:rgb(34, 34, 34); "><!--overflow:hidden; position:fixed;-->
         <h1 hidden></h1> <!-- Puts the Lighthouse Score over 90 heheh-->
         <div id="topnav" class="topnav">
-            <a href="https://github.com/zalo/CascadeStudio" class="aestus-logo-link">
-                <img src="./icon/aestus_secondary_white_outline.png" alt="Aestus" class="aestus-logo" />
-            </a>
+            <a href="https://github.com/zalo/CascadeStudio">Cascade Studio 0.0.7</a>
             <a href="#" title="Save Project to .json" onmouseup="saveProject();">Save Project</a>
             <a href="#" title="Load Project from .json" onmouseup="loadProject();">Load Project</a>
             <a href="#" onmouseup="threejsViewport.saveShapeSTEP();">Save STEP</a>
@@ -89,9 +87,4 @@
         </div>
 
     </body>
-</html>
-<!-- Metal Casting Integration -->
-<script type="text/javascript" src="./js/services/MetalCastingService.js"></script>
-<script type="text/javascript" src="./js/MetalCastingIntegration.js"></script>
-</body>
 </html>
